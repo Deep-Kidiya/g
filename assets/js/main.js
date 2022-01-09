@@ -4,6 +4,8 @@ function mobileMenu() {
     menu.classList.toggle('open');
 }
 
+// ================================= begin::typing text =============================
+
 const text = document.querySelector('.writting-text');
 const words = [
     "enerating"
@@ -69,3 +71,10 @@ const words = [
   
     }
   }
+// ================================= end::typing text =============================
+
+// ================================= begin::loader =============================
+$(window).on("load", function () {
+  $(".loader-wrap").fadeOut(3000);
+});
+// ================================= end::loader =============================
