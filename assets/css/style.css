@@ -14301,4 +14301,14 @@ footer {
   margin: 0 16px;
 }
 
+.reveal {
+  transform: translateY(120px);
+  transition: all 0.5s ease;
+  opacity: 0;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
 /*# sourceMappingURL=style.css.map */
